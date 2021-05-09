@@ -29,18 +29,14 @@
       href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap"
       rel="stylesheet"
     />
-    <style>
-      @import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap");
-    </style>
+    <style></style>
     <link rel="stylesheet" href="style.css" />
     <title>GOG.com</title>
   </head>
   <body>
     <!-- NAV START -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-      <div
-        class="container d-flex flex-column flex-md-row justify-content-between"
-      >
+      <div class="container">
         <a class="navbar-brand" href="#"
           ><img id="logo" src="/gog-assets/logo.png" alt="gog logo"
         /></a>
@@ -137,7 +133,7 @@
           </ul>
           <button type="button" class="btn btn-dark">
             <i class="far fa-bell" style="font-size: 20px"></i>
-            <span class="badge badge-light">9</span>
+            <span class="badge badge-light">2</span>
             <span class="sr-only">unread messages</span>
           </button>
           <button type="button" class="btn btn-dark">
@@ -153,7 +149,7 @@
               class="fas fa-shopping-cart text-white"
               style="font-size: 20px"
             ></i
-            ><span class="badge badge-light">9</span>
+            ><span class="badge badge-light">0</span>
             <span class="sr-only">unread messages</span>
           </button>
           <button type="button" class="btn btn-dark">
@@ -259,7 +255,7 @@
     <!-- CARDS START  -->
     <div class="container">
       <div class="row card-deck">
-        <div class="card shadow p-3 mb-5 bg-white rounded" style="width: 18rem">
+        <div class="card shadow p-3 mb-5 rounded" style="width: 18rem">
           <img src="/gog-assets/tile (1).jpg" class="card-img-top" alt="..." />
           <div class="row card-body">
             <p class="text-dark">Game Land of Lord</p>
@@ -332,8 +328,44 @@
     </div>
     <!-- CARDS END  -->
     <hr />
-    <div class="container">
-      
+
+    <!-- GALAXY GOG RING SECTION -->
+    <div id="galaxy-gog" class="container">
+      <div class="row no-gutters">
+        <div class="col-sm-6 col-md-8 text-muted">
+          <p>
+            We are GOG.COM, the <span>DRM-free</span> home for a
+            <span>curated selection</span> of games. This place was
+            <span>made for gamers,</span> so make yourself at home.
+          </p>
+        </div>
+        <div class="col-6 col-md-4 d-flex flex-row-reverse">
+          <p>
+            <img
+              src="https://images.gog-statics.com/0164e24124875d6b41560cbcd29e44bbe9efbbaf0097e694900aabf43677ca08.png"
+            /><span> The new GOG GALAXY 2.0</span>
+          </p>
+        </div>
+      </div>
+    </div>
+    <hr />
+
+    <!-- WHAT'S GOO? SECTION -->
+    <div class="container mt-3">
+      <h3 class="text-dark">
+        <i class="fas fa-certificate"></i><i class="fas fa-percent"></i>
+      </h3>
+      <!-- https://fontawesome.com/how-to-use/on-the-web/styling/layering -->
+      <span class="fa-layers fa-fw" style="background: MistyRose">
+        <i class="fas fa-certificate"></i>
+        <span
+          class="fa-layers-text fa-inverse"
+          data-fa-transform="shrink-11.5 rotate--30"
+          style="font-weight: 900"
+          >NEW</span
+        >
+      </span>
+      <hr />
     </div>
   </body>
 </html>
