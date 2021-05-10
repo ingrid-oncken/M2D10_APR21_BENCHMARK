@@ -29,8 +29,9 @@
       href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap"
       rel="stylesheet"
     />
-    <style></style>
+
     <link rel="stylesheet" href="style.css" />
+
     <title>GOG.com</title>
   </head>
   <body>
@@ -352,19 +353,44 @@
 
     <!-- WHAT'S GOO? SECTION -->
     <div class="container mt-3">
-      <h3 class="text-dark">
-        <i class="fas fa-certificate"></i><i class="fas fa-percent"></i>
-      </h3>
-      <!-- https://fontawesome.com/how-to-use/on-the-web/styling/layering -->
-      <span class="fa-layers fa-fw" style="background: MistyRose">
-        <i class="fas fa-certificate"></i>
-        <span
-          class="fa-layers-text fa-inverse"
-          data-fa-transform="shrink-11.5 rotate--30"
-          style="font-weight: 900"
-          >NEW</span
-        >
-      </span>
+      <div class="row">
+        <div class="col-sm-6 col-md-3 text-muted">
+          <span class="fa-stack text-dark" style="vertical-align: top">
+            <i class="fas fa-certificate fa-stack-2x"></i>
+            <i
+              id="fa-percent"
+              class="fas fa-percent fa-stack-1x fa-inverse"
+            ></i>
+          </span>
+          <h3 class="text-dark d-inline">Now on sale</h3>
+        </div>
+        <div class="col-6 col-md-4">
+          <ul class="list-group list-group-horizontal text-nowrap">
+            <li
+              class="list-group-item list-group-item-action list-group-item-light"
+            >
+              <a href="#" class="list-group-item-light"> Featured deals</a>
+            </li>
+            <li
+              class="list-group-item list-group-item-action list-group-item-light"
+            >
+              <a href="#" class="list-group-item-light"
+                >Polish Games Festival</a
+              >
+            </li>
+            <li
+              class="list-group-item list-group-item-action list-group-item-light"
+            >
+              <a href="#" class="list-group-item-light">Retro shooters</a>
+            </li>
+            <li
+              class="list-group-item list-group-item-action list-group-item-light"
+            >
+              <a href="#" class="list-group-item-light">Weekend Sale</a>
+            </li>
+          </ul>
+        </div>
+      </div>
       <hr />
     </div>
   </body>

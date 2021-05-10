@@ -56,4 +56,12 @@ h3 {
   font-weight: bold;
   color: var(--gog-purple-font);
 }
-
+ .fa-stack {
+  font-size: 1.3em;
+}
+#fa-percent {
+  font-size: 0.8em;
+}
+/*i {
+  vertical-align: middle;
+} 
